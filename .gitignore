@@ -3,6 +3,7 @@ venv/
 .venv/
 env/
 ENV/
+nivasa_ven/
 
 # Bytecode
 __pycache__/
