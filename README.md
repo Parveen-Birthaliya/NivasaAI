@@ -1,19 +1,19 @@
-# 🧠 NivasaAI — Smart Real Estate Intelligence Platform (India Focused)
+#  NivasaAI — Smart Real Estate Intelligence Platform (India Focused)
 
 **NivasaAI** is an open-source, AI-driven real estate analysis and valuation platform focused on the **Indian property market**.  
 It aims to provide transparent, data-driven insights into property valuation, trends, and market intelligence — **built entirely using free and local technologies**.
 
-> 🚧 *This project is currently in active development (MVP phase). Initial components and datasets are being prepared.*
+>  *This project is currently in active development (MVP phase). Initial components and datasets are being prepared.*
 
 ---
 
-## 🎯 Mission
+##  Mission
 
 To democratize access to intelligent real estate analytics in India by building a free, transparent, and AI-powered system that predicts property valuations, analyzes risks, and visualizes market trends — all without reliance on paid APIs.
 
 ---
 
-## 🏗️ Planned System Architecture
+##  Planned System Architecture
 
 | Component | Purpose | Key Technologies |
 |------------|----------|------------------|
@@ -27,7 +27,7 @@ To democratize access to intelligent real estate analytics in India by building 
 
 ---
 
-## 📊 Data Focus (Phase 1)
+##  Data Focus (Phase 1)
 
 Initial scope covers **Tier-1 Indian cities**:
 - Mumbai  
@@ -41,33 +41,20 @@ Data attributes will include:
 
 ---
 
-## 🧩 Roadmap (MVP Development Timeline)
-
-| Milestone | Status | Description |
-|------------|--------|-------------|
-| Repository & structure setup | ✅ Done | Project directories and base files initialized |
-| Dataset research & collection | 🔄 In Progress | Identifying and cleaning public real estate datasets |
-| Baseline AVM model (XGBoost) | ⏳ Planned | Price prediction using structured data |
-| Local RAG system setup | ⏳ Planned | Integrate Llama 3 + FAISS for contextual insights |
-| Visualization dashboard | ⏳ Planned | Interactive data analytics interface |
-| Documentation & deployment guide | ⏳ Planned | Final docs and Docker setup |
-
----
-
-## 🤝 Contribution
+##  Contribution
 
 This is an open-source initiative.  
 If you’re interested in real estate data, AI, or LLM applications — **you’re welcome to contribute** once the MVP is released.
 
 ---
 
-## 📜 License
+##  License
 
 Released under the **MIT License** — free to use, modify, and build upon with proper attribution.
 
 ---
 
-## 💡 Long-Term Vision
+##  Long-Term Vision
 
 To evolve into a **full-fledged AI property intelligence engine** capable of:
 - Automated valuation report generation  
