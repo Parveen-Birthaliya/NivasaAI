@@ -76,13 +76,3 @@ To evolve into a **full-fledged AI property intelligence engine** capable of:
 
 **Zero paid APIs. 100% open-source. India-first innovation.**
 
-## License
-
-MIT License
-
----
-
-## Contact / Credits
-
-Created by Parveen Birthaliya  
-[GitHub: parveen-birthaliya](https://github.com/parveen-birthaliya)
