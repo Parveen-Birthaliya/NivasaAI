@@ -1,92 +1,80 @@
-# NivasaAI
+# 🧠 NivasaAI — Smart Real Estate Intelligence Platform (India Focused)
 
-AI-powered real estate intelligence for Indian datasets.  
-Open-source, modular, and designed for transparency and accessibility.
+**NivasaAI** is an open-source, AI-driven real estate analysis and valuation platform focused on the **Indian property market**.  
+It aims to provide transparent, data-driven insights into property valuation, trends, and market intelligence — **built entirely using free and local technologies**.
 
----
-
-## Project Overview
-
-NivasaAI helps users analyze, compare, and extract insights from property, infrastructure, and neighborhood data in India using free, open-source AI tools.
+> 🚧 *This project is currently in active development (MVP phase). Initial components and datasets are being prepared.*
 
 ---
 
-## Key Features
+## 🎯 Mission
 
-- **AI Reasoning:** Query and interpret real estate data with explainable AI.
-- **RAG Architecture:** Combines retrieval and generation for accurate answers.
-- **Feedback Loop:** Improves insights with user feedback.
-- **Indian Dataset Focus:** Tailored for local property, infrastructure, and environment data.
-
-
-
-## Architecture Summary
-
-- **Flask UI:** Simple web interface for queries.
-- **LangChain RAG:** Modular retrieval-augmented generation pipeline.
-- **FAISS DB:** Fast vector search for property documents.
-- **SQLite Memory:** Lightweight structured data storage.
-- **Ollama Models:** Open-source LLMs (CodeLlama, Mistral) for reasoning.
+To democratize access to intelligent real estate analytics in India by building a free, transparent, and AI-powered system that predicts property valuations, analyzes risks, and visualizes market trends — all without reliance on paid APIs.
 
 ---
 
-## Tech Stack
+## 🏗️ Planned System Architecture
 
-- Python 3.10+
-- Flask
-- LangChain
-- FAISS
-- SQLite
-- Ollama (CodeLlama, Mistral)
-- Jupyter (optional for notebooks)
-
----
-
-## Setup Instructions
-
-```bash
-# Clone the repo
-git clone https://github.com/parveen-birthaliya/NivasaAI.git
-cd NivasaAI
-
-# Create Python environment
-python3 -m venv venv
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Start Flask app
-python app.py
-```
+| Component | Purpose | Key Technologies |
+|------------|----------|------------------|
+| **Backend API** | Core logic for ML, RAG, and OCR pipelines | FastAPI, Python 3.11 |
+| **Frontend UI** | Interactive dashboards and comparison tools | React + Vite |
+| **Automated Valuation Model (AVM)** | Predict property prices using structured datasets | Scikit-learn, XGBoost |
+| **RAG Engine** | Contextual Q&A and property insights | Ollama (Llama 3), FAISS, SentenceTransformers |
+| **Visualization Layer** | Market trend heatmaps & price graphs | Plotly, Recharts |
+| **Storage** | Property and embedding data | SQLite / PostgreSQL |
+| **Containerization** | Local reproducibility | Docker |
 
 ---
 
-## Dataset Sources (India)
+## 📊 Data Focus (Phase 1)
 
-- Government Open Data (data.gov.in)
-- RERA (Real Estate Regulatory Authority)
-- Housing.com, MagicBricks APIs
-- CPCB (Central Pollution Control Board)
-- OpenStreetMap
+Initial scope covers **Tier-1 Indian cities**:
+- Mumbai  
+- Delhi NCR  
+- Bengaluru  
+- Hyderabad  
+- Chennai  
 
----
-
-## Future Enhancements
-
-- Self-learning AI with improved feedback integration
-- Advanced retrieval and ranking
-- Interactive dashboard UI
-- Community-driven datasets and plugins
+Data attributes will include:  
+`location`, `property_type`, `size`, `price`, `amenities`, `builder_reputation`, and `transaction_year`.
 
 ---
 
-## Contributing
+## 🧩 Roadmap (MVP Development Timeline)
 
-Fork the repo, open issues, and submit pull requests.  
-All contributions are welcome!
+| Milestone | Status | Description |
+|------------|--------|-------------|
+| Repository & structure setup | ✅ Done | Project directories and base files initialized |
+| Dataset research & collection | 🔄 In Progress | Identifying and cleaning public real estate datasets |
+| Baseline AVM model (XGBoost) | ⏳ Planned | Price prediction using structured data |
+| Local RAG system setup | ⏳ Planned | Integrate Llama 3 + FAISS for contextual insights |
+| Visualization dashboard | ⏳ Planned | Interactive data analytics interface |
+| Documentation & deployment guide | ⏳ Planned | Final docs and Docker setup |
 
 ---
+
+## 🤝 Contribution
+
+This is an open-source initiative.  
+If you’re interested in real estate data, AI, or LLM applications — **you’re welcome to contribute** once the MVP is released.
+
+---
+
+## 📜 License
+
+Released under the **MIT License** — free to use, modify, and build upon with proper attribution.
+
+---
+
+## 💡 Long-Term Vision
+
+To evolve into a **full-fledged AI property intelligence engine** capable of:
+- Automated valuation report generation  
+- Fraud detection in property documents  
+- City-level investment analytics  
+
+**Zero paid APIs. 100% open-source. India-first innovation.**
 
 ## License
 
