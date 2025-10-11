@@ -1,0 +1,11 @@
+[tool.black]
+line-length = 88
+target-version = ['py311']
+exclude = ['.venv/', 'build/', 'dist/']
+
+[tool.isort]
+profile = "black"
+line_length = 88
+known_first_party = ["src"]
+multi_line_output = 3
+include_trailing_comma = true
