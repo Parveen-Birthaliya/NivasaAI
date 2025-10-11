@@ -5,6 +5,10 @@ env/
 ENV/
 nivasa_ven/
 .nivasa_ven/
+nivasa_ven
+.nivasa_ven
+nivasa_venv/
+.nivasa_venv/
 
 # Bytecode
 __pycache__/
